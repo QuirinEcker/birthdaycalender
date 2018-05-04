@@ -1,10 +1,26 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Untitled Document</title>
-</head>
+	<head>
+		<meta charset="UTF-8">
+		<title>Untitled Document</title>
+		<link rel="stylesheet" href="css/startScreen.css">
+		<link rel="stylesheet" href="css/cards.css">
+	</head>
 
-<body>
-</body>
+	<body>
+		<script type="text/javascript" src="js/createCalender.js"></script>
+		<div id="startScreenBackground"></div>
+		
+		<div id="nameEnter">
+			<p>Enter your Birth Day</p>
+			<input id="abstand" type="number" placeholder="day">
+			<input type="number" placeholder="month">
+			<p></p>
+			<button onClick="runCalender()" id="okButton">ok</button>
+		</div>
+		
+		<div id="dayCards">
+<!--			<div class="card">23</div>-->
+		</div>
+	</body>
 </html>

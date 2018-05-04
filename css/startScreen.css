@@ -1,0 +1,53 @@
+* {
+	font-family: arial;
+	margin: 0; padding: 0;
+}
+
+html {
+	height: 100%
+}
+
+body {
+	height: 100%;
+	background-image: url(../img/Background.png);
+	background-size: cover;
+}
+
+#startScreenBackground {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	opacity: 0.5;
+	background-color: black;
+	transition: opacity 1s;
+	z-index: 2;
+}
+
+#nameEnter {
+	position: absolute;
+	left: 30%; top: 33%;
+	background-color: black;
+	color: white;
+	padding: 2%;
+	width: 30%;
+	height: 20%;
+	text-align: center;
+	line-height: 300%;
+	transition: opacity 1s;
+	z-index: 3;
+}
+
+#abstand {
+	margin-right: 5%;
+}
+
+input {
+	font-size: 120%;
+	width: 40%;
+}
+
+#okButton {
+	position: relative;
+	bottom: 0;
+	width: 50%;
+}
